@@ -1,0 +1,203 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ChatAppServer
+</name>
+</assembly>
+<members>
+<member name="T:ChatAppServer.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ChatAppServer.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ChatAppServer.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ChatAppServer.Tyrax_Program">
+ ***********************************************************
+ Copyright 2013-2016  TyraxoSoft. All rights reserved.
+ ***********************************************************
+ <summary>
+  Tyrax_Program (AKA TyraxEngine) is the Engine used in tyraxosoft applications.
+  This class makes it easier and secure to create these applications and should be easy to use.
+ </summary>
+ <remarks><para><pre>
+ RevisionHistory:
+ -----------------------------------------------------------
+ Date        Name              Description
+ -----------------------------------------------------------
+ 01/01/2016  Lesley  Initial Request and Creation
+ 22/01/2016  Lesley  Huge update on Tyrax_User able to GetInfo()
+ 22/01/2016  Lesley  Added all comments necessary till FromBase64
+ 03/02/2016  Lesley  Added all other comments, UserInfo now accepts a Type to be returned as.
+ 03/02/2016  Lesley  Autologin and Encryption working.
+ 03/02/2016  Lesley  (Of T) removed bij GetInfo
+ </pre></para>
+ </remarks>
+ -----------------------------------------------------------
+</member>
+<member name="P:ChatAppServer.Tyrax_Program.Username">
+ <summary>
+  Returns the Username
+ </summary>
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.json_decode(System.String)">
+ <summary>
+  Converts a json callback into a dictionary array
+ </summary>
+ <param name="input">
+       The JSON Input.
+       Value Type: <see cref="T:System.String" />   (System.String)
+ </param>
+ <exception cref="T:System.ArgumentException">
+       Thrown when invalid json is given
+ </exception>
+ <returns><see cref="T:System.Collections.Generic.Dictionary`2" />(System.Collections.Generic.Dictionary)</returns>
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.json_encode(System.Array)">
+ <summary>
+  Converts an array to a json array
+ </summary>
+ <param name="input">
+       The Array Input.
+       Value Type: <see cref="T:System.Array" />   (System.Array)
+ </param>
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.EscapeJson(System.String)">
+ <summary>
+  Returns the escaped/safe string
+ </summary>
+ <param name="input">
+       The input to be escaped
+       Value Type: <see cref="T:System.String" />   (System.String)
+ </param>
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.POST(System.String,System.String)">
+ <summary>
+  Uploads a string and returns the server returned content.
+ </summary>
+ <param name="api">
+       The location of the API/URL
+       Value Type: <see cref="T:System.String" />   (System.String)
+ </param>
+ <param name="content">
+       Content that needs to be written in the POST section.
+       Value Type: <see cref="T:System.String" />   (System.String)
+ </param>
+ <returns><see cref="T:System.String" />(System.String)</returns>
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.HWIDGen">
+ <summary>
+  Returns the HWID (Username + MachineName + WindowsUsername)
+ </summary>
+ <returns><see cref="T:System.String" />(System.String)</returns>
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.#ctor(System.String)">
+ <summary>
+  Returns the HWID (Username + MachineName + WindowsUsername)
+ </summary>
+ <param name="NewProgramName">
+       Current program name, usually the marketed name.
+       Only registered TyraxoSoft products are allowed.
+       Value Type: <see cref="T:System.String" />   (System.String)
+ </param>    
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.Logout">
+ <summary>
+  Logs out the current user
+  (Would recommend creating a New Tyrax_Program instead)
+ </summary>
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.TryAutoLogin">
+ <summary>
+  Tries to login if user 'RememberMe'd
+  If success, return true, if fail return false (then user normal Login)
+ </summary>
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.Login(System.String,System.String,System.Boolean)">
+ <summary>
+  Returns If the login was successfull
+ </summary>
+ <param name="username">
+       The on TyraxoSoft registered username, usualy the input of a textbox.
+       Value Type: <see cref="T:System.String" />   (System.String)
+ </param>    
+   <param name="password">
+       The raw, non hashed, non encrypted password of the client, usually the input of a textbox.
+       Value Type: <see cref="T:System.String" />   (System.String)
+ </param>    
+ <param name="RememberMe">
+       Either if it needs to remember the account to afterwards <see cref="M:ChatAppServer.Tyrax_Program.TryAutoLogin" />
+       Value Type: <see cref="T:System.Boolean" />   (System.Boolean)
+ </param>    
+ <returns><see cref="T:System.Boolean" />(System.Boolean)</returns>
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.MD5(System.String)">
+ <summary>
+  Returns the MD5 hash of a given string
+ </summary>
+ <param name="str">
+       The string that needs to be hashed.
+       Value Type: <see cref="T:System.String" />   (System.String)
+ </param>    
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.ToBase64(System.String)">
+ <summary>
+  Returns the Base64() of a given string
+  (Invert this with <see cref="M:ChatAppServer.Tyrax_Program.FromBase64(System.String)" />)
+ </summary>
+ <param name="str">
+       The string that needs to be converted to base64.
+       Value Type: <see cref="T:System.String" />   (System.String)
+ </param>    
+ <seealso cref="M:ChatAppServer.Tyrax_Program.FromBase64(System.String)"/>
+</member>
+<member name="M:ChatAppServer.Tyrax_Program.FromBase64(System.String)">
+ <summary>
+  Returns the string of a given Base64 string
+  (Invert this with <see cref="M:ChatAppServer.Tyrax_Program.ToBase64(System.String)" />)
+ </summary>
+ <param name="str">
+       The string that needs to be converted to a string.
+       Value Type: <see cref="T:System.String" />   (System.String)
+ </param>    
+ <seealso cref="M:ChatAppServer.Tyrax_Program.FromBase64(System.String)"/>
+</member>
+<member name="M:ChatAppServer.TyraxUser.#ctor(System.String,ChatAppServer.Tyrax_Program)">
+ <summary>
+  Creates a new TyraxUser
+ </summary>
+ <param name="User">
+       The user that needs to be queried
+       Value Type: <see cref="T:System.String" />   (System.String)
+ </param>    
+ <param name="From">
+       The program for future references and checks.
+       Value Type: <see cref="T:ChatAppServer.Tyrax_Program" />   (Tyrax_Program)
+ </param>    
+</member>
+<member name="M:ChatAppServer.TyraxUser.UpdateInfo">
+ <summary>
+  Updates the info about the user.
+ </summary>
+</member>
+<member name="M:ChatAppServer.TyraxUser.GetInfo(ChatAppServer.TyraxUser.InfoType)">
+ <summary>
+  Creates a new TyraxUser
+ </summary>
+ <param name="type">
+       The type of info required.
+       Value Type: <see cref="T:ChatAppServer.TyraxUser.InfoType" />   (Enum InfoType)
+ </param>    
+</member>
+</members>
+</doc>

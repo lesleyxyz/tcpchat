@@ -1,0 +1,40 @@
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\bin\Debug\ChatApp.exe.config
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\obj\Debug\ChatApp.vbprojResolveAssemblyReference.cache
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\obj\Debug\ChatApp.ActAs.resources
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\obj\Debug\ChatApp.Client.resources
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\obj\Debug\ChatApp.Resources.resources
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\obj\Debug\ChatApp.vbproj.GenerateResource.Cache
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\obj\Debug\ChatApp.xml
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\bin\Debug\ChatApp.exe
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\bin\Debug\ChatApp.pdb
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\bin\Debug\ChatApp.xml
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\obj\Debug\ChatApp.exe
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\obj\Debug\ChatApp.pdb
+C:\Users\Lesley\AppData\Local\Temporary Projects\ChatApp\obj\Debug\ChatApp.Server.resources
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\bin\Debug\ChatApp.exe.config
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\obj\Debug\ChatApp.exe
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\obj\Debug\ChatApp.xml
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\obj\Debug\ChatApp.pdb
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\bin\Debug\ChatApp.exe
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\bin\Debug\ChatApp.pdb
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\bin\Debug\ChatApp.xml
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\obj\Debug\ChatApp.ActAs.resources
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\obj\Debug\ChatApp.Client.resources
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\obj\Debug\ChatApp.Resources.resources
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\obj\Debug\ChatApp.Server.resources
+C:\Users\Lesley\Dropbox\TyraxoSoft Program\TyraxEngine\ChatApp\obj\Debug\ChatApp.vbproj.GenerateResource.Cache
+C:\Users\Lesley\Dropbox\ChatApp\bin\Debug\ChatApp.exe.config
+C:\Users\Lesley\Dropbox\ChatApp\obj\Debug\ChatApp.exe
+C:\Users\Lesley\Dropbox\ChatApp\obj\Debug\ChatApp.xml
+C:\Users\Lesley\Dropbox\ChatApp\obj\Debug\ChatApp.pdb
+C:\Users\Lesley\Dropbox\ChatApp\bin\Debug\ChatApp.exe
+C:\Users\Lesley\Dropbox\ChatApp\bin\Debug\ChatApp.pdb
+C:\Users\Lesley\Dropbox\ChatApp\bin\Debug\ChatApp.xml
+C:\Users\Lesley\Dropbox\ChatApp\obj\Debug\ChatApp.vbprojResolveAssemblyReference.cache
+C:\Users\Lesley\Dropbox\ChatApp\obj\Debug\ChatApp.Client.resources
+C:\Users\Lesley\Dropbox\ChatApp\obj\Debug\ChatApp.Resources.resources
+C:\Users\Lesley\Dropbox\ChatApp\obj\Debug\ChatApp.vbproj.GenerateResource.Cache
+C:\Users\Lesley\Dropbox\ChatApp\obj\Debug\ChatApp.ClientLogin.resources
+C:\Users\Lesley\Dropbox\ChatApp\bin\Debug\MetroFramework.Design.dll
+C:\Users\Lesley\Dropbox\ChatApp\bin\Debug\MetroFramework.dll
+C:\Users\Lesley\Dropbox\ChatApp\bin\Debug\MetroFramework.Fonts.dll

@@ -1,0 +1,11 @@
+C:\Users\Lesley\Dropbox\ChatAppServer\obj\Debug\ChatAppServer.Resources.resources
+C:\Users\Lesley\Dropbox\ChatAppServer\obj\Debug\ChatAppServer.Server.resources
+C:\Users\Lesley\Dropbox\ChatAppServer\obj\Debug\ChatAppServer.vbproj.GenerateResource.Cache
+C:\Users\Lesley\Dropbox\ChatAppServer\obj\Debug\ChatAppServer.xml
+C:\Users\Lesley\Dropbox\ChatAppServer\bin\Debug\ChatAppServer.exe.config
+C:\Users\Lesley\Dropbox\ChatAppServer\bin\Debug\ChatAppServer.exe
+C:\Users\Lesley\Dropbox\ChatAppServer\bin\Debug\ChatAppServer.pdb
+C:\Users\Lesley\Dropbox\ChatAppServer\bin\Debug\ChatAppServer.xml
+C:\Users\Lesley\Dropbox\ChatAppServer\obj\Debug\ChatAppServer.exe
+C:\Users\Lesley\Dropbox\ChatAppServer\obj\Debug\ChatAppServer.pdb
+C:\Users\Lesley\Dropbox\ChatAppServer\obj\Debug\ChatAppServer.vbprojResolveAssemblyReference.cache
